@@ -1,0 +1,142 @@
+#font,
+#a,
+#b,
+#c {
+
+    font-family: 'Dancing Script', cursive;
+
+}
+#img1,#img2,#img3{
+    height: 100vh;
+}
+#Nikk a:hover {
+       
+    color: orange;
+    
+}
+
+#button1,#button2,#button3,#button4{
+    background: right linear-gradient( to right ,rgb(245, 171, 33), rgb(253, 54, 88));
+    
+}   
+
+#s,#s1,#s2,#s3,#s4,#s5{
+    width: 20%;
+}
+
+#Ni {
+    width: 10%;
+}
+
+#Nik,
+#b1,
+#b2 {
+    background: linear-gradient(rgb(238, 179, 70), rgb(236, 102, 125));
+}
+
+#form {
+    background: rgb(241, 205, 232);
+}
+
+#content1:hover {
+    background-color: rgb(238, 186, 73);
+    color: white;
+}
+#content2:hover {
+    background-color: rgb(238, 186, 73);
+    color: white;
+}
+#content3:hover {
+    background-color: rgb(238, 186, 73);
+    color: white;
+}
+#content4:hover {
+    background-color: rgb(238, 186, 73);
+    color: white;
+}
+#content5:hover {
+    background-color: rgb(238, 186, 73);
+    color: white;
+}
+#content6:hover {
+    background-color: rgb(238, 186, 73);
+    color: white;
+}
+
+#footer {
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) ,url(../images/bg2.jpg);
+   
+    
+
+}
+:root{
+    --bs-orange:rgb(248, 117, 29);
+    --bs-skyblue:rgb(250, 35, 239);
+    --bs-pink:rgb(238, 126, 145);
+    --bs-purple:purple;
+    --bs-aqua:aqua ;
+  
+}
+#p1{
+    color: var(--bs-pink);
+    font-weight: lighter;
+}
+#p2{
+    color: var(--bs-orange);
+    font-weight: lighter;
+}
+#p3{
+    color:var(--bs-purple);
+    font-weight: lighter;
+}
+#p4{
+    color: var(--bs-aqua);
+    font-weight: lighter;
+}
+
+
+#p5{
+    color: var(--bs-skyblue);
+    font-weight: lighter;
+}
+#footer hr{
+    color: rgb(235, 75, 16);
+}
+#last{
+    background-color:rgb(201, 100, 6) ;
+}
+
+
+@media only screen and (max-width:576px) {
+    #img1,#img2,#img3{
+        height: 70vh;
+    }
+    #a,#b,#c{
+        margin-bottom: 140px;
+    }
+
+
+
+
+}
+@media only screen and (min-width:768px) {
+
+    #img1,#img2,#img3{
+        height: 60vh;
+    }
+
+    #div1,#div2,#div3{
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+
+    #img1,#img2,#img3{
+        height: 100vh;
+    }
+
+    #div1,#div2,#div3{
+        margin-bottom: 100px;
+    }
+}
